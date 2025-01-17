@@ -296,10 +296,12 @@ PRODUCT_COPY_FILES += \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.sensormodule.mingjiaying_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mingjiaying_imx616.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.sensormodule.mingjiaying_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mingjiaying_imx766.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.sensormodule.mingjiaying_imx766_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mingjiaying_imx766_aux.bin \
+    vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.sensormodule.mjy_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mjy_imx616.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.tuned.mingjiaying_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mingjiaying_imx616.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.tuned.mingjiaying_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mingjiaying_imx766.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.tuned.mingjiaying_imx766_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mingjiaying_imx766_aux.bin \
+    vendor/shift/otter/proprietary/vendor/lib64/camera/com.qti.tuned.mjy_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mjy_imx616.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/shift/otter/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
