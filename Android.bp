@@ -14356,6 +14356,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/nfc_nci.thn31nfc.tms.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.nfc@1.0",
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",
@@ -14634,6 +14635,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/tms-utils.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
