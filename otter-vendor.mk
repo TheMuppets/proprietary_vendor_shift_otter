@@ -258,6 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/shift/otter/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
     vendor/shift/otter/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
     vendor/shift/otter/proprietary/vendor/firmware/drv2624.rtp:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.rtp \
+    vendor/shift/otter/proprietary/vendor/firmware/focaltech_ts_fw_otter.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_otter.bin \
     vendor/shift/otter/proprietary/vendor/firmware/tas2563-2amp-dsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2563-2amp-dsp.bin \
     vendor/shift/otter/proprietary/vendor/firmware/tas2563-2amp-reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2563-2amp-reg.bin \
     vendor/shift/otter/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
