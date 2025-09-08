@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/shift/otter/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/shift/otter/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/shift/otter/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/shift/otter/proprietary/system_ext/etc/permissions/WfdCommon.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/WfdCommon.xml \
     vendor/shift/otter/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/shift/otter/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/shift/otter/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -885,6 +886,7 @@ PRODUCT_PACKAGES += \
     libwfdmmsrc_system \
     libwfdservice \
     vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@2.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
@@ -902,13 +904,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
-    EuiccOverlay \
-    EuiccGoogle \
     CACertService \
     CneApp \
     IWlanService \
     TimeService \
+    EuiccOverlay \
     uimgbaservice \
+    EuiccGoogle \
     ImsRcsService \
     PowerOffAlarm \
     QtiTelephonyService \
@@ -916,10 +918,10 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimservicelibrary \
+    WfdCommon \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
@@ -1030,6 +1032,3 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
