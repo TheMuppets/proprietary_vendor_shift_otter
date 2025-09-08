@@ -19613,28 +19613,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-    name: "EuiccOverlay",
-    owner: "shift",
-    apk: "proprietary/system/app/EuiccOverlay/EuiccOverlay.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-}
-
-android_app_import {
-    name: "EuiccGoogle",
-    owner: "shift",
-    apk: "proprietary/system/priv-app/EuiccGoogle/EuiccGoogle.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-}
-
-android_app_import {
     name: "CACertService",
     owner: "shift",
     apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -19682,6 +19660,17 @@ android_app_import {
 }
 
 android_app_import {
+    name: "EuiccOverlay",
+    owner: "shift",
+    apk: "proprietary/product/app/EuiccOverlay/EuiccOverlay.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
+android_app_import {
     name: "uimgbaservice",
     owner: "shift",
     apk: "proprietary/product/app/uimgbaservice/uimgbaservice.apk",
@@ -19689,6 +19678,19 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
+    product_specific: true,
+}
+
+android_app_import {
+    name: "EuiccGoogle",
+    owner: "shift",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
     product_specific: true,
 }
 

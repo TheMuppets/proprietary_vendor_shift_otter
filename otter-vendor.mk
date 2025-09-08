@@ -902,13 +902,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
-    EuiccOverlay \
-    EuiccGoogle \
     CACertService \
     CneApp \
     IWlanService \
     TimeService \
+    EuiccOverlay \
     uimgbaservice \
+    EuiccGoogle \
     ImsRcsService \
     PowerOffAlarm \
     QtiTelephonyService \
