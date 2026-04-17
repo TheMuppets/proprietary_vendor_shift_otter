@@ -258,6 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/shift/otter/proprietary/vendor/firmware/focaltech_ts_fw_otter.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_otter.bin \
     vendor/shift/otter/proprietary/vendor/firmware/tas2563-2amp-dsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2563-2amp-dsp.bin \
     vendor/shift/otter/proprietary/vendor/firmware/tas2563-2amp-reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2563-2amp-reg.bin \
+    vendor/shift/otter/proprietary/vendor/firmware/vpu20_1v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b00 \
     vendor/shift/otter/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
     vendor/shift/otter/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
     vendor/shift/otter/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
