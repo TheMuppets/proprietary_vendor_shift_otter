@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),otter)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,59990b15a39091705aa9b93b04324232953b5ca6)
+$(call add-radio-file-sha1-checked,radio/abl.img,35ef57745990b4f11ccdbb6ef27bb13ecd931f02)
 $(call add-radio-file-sha1-checked,radio/aop.img,56db6120bb2d4ce5ce21f581d4e5a6a0699cfa14)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,eaa51e942be14d08d472b47618bb6e804b1ec39f)
 $(call add-radio-file-sha1-checked,radio/cpucp.img,c5d71f0ef0d871cc7f119d39596f034e7d8534ea)
